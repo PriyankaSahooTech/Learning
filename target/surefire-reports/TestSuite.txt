@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 1.35 s <<< FAILURE! - in TestSuite
+ddtNopCom.NOPCommLoginTest.launchApp  Time elapsed: 0.966 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'ibm_data' is required by BeforeTest on method launchApp but has not been marked @Optional or defined
+in C:\Users\Act\eclipse-workspace\IBM-workspace\com.ibm.nov.batch2\testng_DDT.xml
+
